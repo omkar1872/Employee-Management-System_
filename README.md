@@ -20,6 +20,32 @@ This project demonstrates CRUD operations (Create, Read, Update, Delete) with a 
 
 - **Python 3.x**
 - **SQLite3** (built-in Python database)
+- EMS/
+│-- ems.py # Main application file
+│-- database.py # Database connection & queries
+│-- requirements.txt # Python dependencies
+│-- README.md # Project documentation
+│-- employees.db # SQLite database (auto-created after first run)
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/employee-management-system.git
+   cd employee-management-system
+# create virtual space
+python -m venv venv
+source venv/bin/activate     # On Mac/Linux
+venv\Scripts\activate        # On Windows
+# install dependecies
+pip install -r requirements.txt
+
+# Run application
+python ems.py
+
+
 
 ---
 
