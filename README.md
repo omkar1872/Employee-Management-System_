@@ -36,10 +36,12 @@ This project demonstrates CRUD operations (Create, Read, Update, Delete) with a 
    git clone https://github.com/your-username/employee-management-system.git
    cd employee-management-system
 # create virtual space
-python -m venv venv
-source venv/bin/activate     # On Mac/Linux
-venv\Scripts\activate        # On Windows
+```bash
+ python -m venv venv
+ source venv/bin/activate     # On Mac/Linux
+ venv\Scripts\activate        # On Windows
 # install dependecies
+
 pip install -r requirements.txt
 
 # Run application
